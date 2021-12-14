@@ -1,0 +1,51 @@
+.demo
+{
+position: relative;
+background-color: rgba(0, 0, 0, 0.5);
+margin: 10px 0;
+}
+
+
+#test
+.caption
+{
+position: absolute;
+bottom:0;
+left: 10%;
+width: 80%;
+
+
+}
+
+
+.layer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center
+}
+
+
+#layer-item{
+    width:50%;
+    height: 500px;
+    background-image: url(../IMG_20180720_172112.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+#close{
+    position: absolute;
+    top:15px;
+    right: 15px
+}
